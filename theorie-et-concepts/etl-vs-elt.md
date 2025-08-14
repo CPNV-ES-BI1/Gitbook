@@ -6,12 +6,12 @@ Ce contenu permettra d'étudier le coeur du système de récupération des donn�
 
 ## Objectifs
 
-Chaque technicien-ne doit, au terme de cette phase doit pouvoir:
+Chaque technicien-ne atteint les objectifs suivants:
 
-* [ ] Expliquer à un néophite, avec les termes appropriés, ce qu'est la BI actuellement.
-* [ ] En partant d'un cas pratique, faire des liens avec la BI et voir de quelles manières elle pourrait aider/influencer notre quotidien.
-* [ ] Mettre en évidence les évolutions récentes de la BI.
-* [ ] Etre critique par rapport à l'application de la BI (intention).
+* [ ] Expliquer à un néophyte, avec les termes appropriés, ce qu'est la BI en 2025.
+* [ ] En partant d'un cas pratique, observer la présence de la BI dans notre quotidien.
+* [ ] Mettre en évidence les avancées technologiques qui offrent un levier important dans l’utilisation de la BI.
+* [ ] Emettre un avis critique par rapport à l'application de la BI (intention).
 
 ## Introduction
 
@@ -26,9 +26,21 @@ Cette vidéo ne sera pas utilisée comme source à l'examen, elle sert uniquemen
 {% embed url="https://www.ibm.com/topics/etl?utm_medium=OSocial&utm_source=Youtube&utm_content=SOFWW&utm_id=YTEndCard-101-ETL-Product-Page-ETL" %}
 
 * Points clés à étudier:
-  * Si vous avez un nombre très importants de sources de données, ETL ou ELT ?
-  * Quels sont les critères à évaluer pour choisir entre un ETL ou un ELT ?
-  * Problèmatiques ("faiblesses") des ELT.
+  * Si vous avez un nombre très importants de sources de données, optez-vous pour une approche ETL ou au contraire ELT ?
+  * Quelles sont les problèmatiques ("faiblesses") des ELT ?
+  * La composante "cloud computing" nous poussera à utiliser quelle approche ?
+
+## Quiz formatif
+
+Ce quiz formatif vous permet de voir des exemples de questions pour l'évaluation.
+
+{% hint style="info" %}
+L'épreuve sommative comportera principalement des questions ouvertes.
+{% endhint %}
+
+{% embed url="https://forms.office.com/e/KJLEQ4W6fQ" %}
+
+***
 
 ## En savoir plus
 
@@ -43,13 +55,3 @@ Les normes spécifiques aux traffics de payement.
 {% file src="../.gitbook/assets/Le RGPD et ses conséquences sur la Suisse_FR.pdf" %}
 Le RPDG est ses conséquences pour la Suisse
 {% endfile %}
-
-## Quiz formatif
-
-Ce quiz formatif vous permet de voir des exemples de questions pour l'évaluation.
-
-{% hint style="info" %}
-L'épreuve sommative comportera principalement des questions ouvertes.
-{% endhint %}
-
-{% embed url="https://forms.office.com/e/KJLEQ4W6fQ" %}
