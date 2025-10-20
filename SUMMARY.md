@@ -3,6 +3,9 @@
 * [Kickoff](README.md)
   * [PEC - Fiche descriptive de module](<kickoff/pec-fiche-descriptive-de-module (1).md>)
   * [Intention 2025-2026](kickoff/intention-2025-2026.md)
+* [Roadmap](roadmap/README.md)
+  * [Théorie et concepts](roadmap/theorie-et-concepts/README.md)
+    * [BI - Les bases](roadmap/theorie-et-concepts/bi-les-bases.md)
 
 ## ARCHIVES
 
