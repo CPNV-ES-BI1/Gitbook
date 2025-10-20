@@ -1,4 +1,4 @@
-# Intention 2024-2025
+# Intention 2025-2026
 
 ### Message de bienvenue
 
@@ -27,24 +27,16 @@ Nous allons continuer de favoriser une approche empirique (apprentissage par l'e
 
 Un minimum de 3 sprints sont demandés afin d'obtenir les situations suivantes:
 
-* **Sprints 0 - Acquisition de compétences (laboratoires ELT)**
-  * Travail en individuel
-  * Validation des outils de développement.
-  * POC des technologies choisies.
-  * Discussion en classe et amélioration du livrable.
-* **Sprint 1 - Première version de l'ELT**
-  * Travail en Dev team.&#x20;
-  * Mise en place d'un premier flux implémentant les trois couche de l'ELT, sur un seul cloud provider.
-  * En local, l'architecture mises en place facilite le futur déploiement en tant que micro-services.
-  * Pipeline simple (uniquement CI).
-* **Sprint 2 - Deuxième version de l'ELT**
-  * Travail en Dev team.
-  * Enrichissement fonctionnet de l'ELT en intégrant un deuxième cloud provider.
-  * Pipeline complet (CI/CD/CD).
+* <mark style="color:orange;">Sprints 0 - Warm up</mark>
+  * Objectif: Mise en place de l'environnement de développement et réalisation d'un premier projet d'architecture adapté au monde de la BI afin de valider la "stack" technologique choisie.
+* <mark style="color:orange;">Sprint 1 - Première version de l'ELT</mark>
+  * Objectif : Un premier flux "simple" est mis en oeuvre, impliquant toutes les couches de l'ELT. Un rendu graphique des données permet de valider le bon fonctionnement du flux.
+* <mark style="color:orange;">Sprint 2 - Deuxième version de l'ELT</mark>
+  * Objectif : Le flux est enrichi et complexifié. Plus de données, plus de connecteurs et un meilleur traitement global des données.
 
 ### Evaluation
 
-Le mode d'évaluation a pour objectif de donner régulièrement des retours aux technicien-ne-s et ainsi co-construire les connaissances avec l'animateur.
+Le mode d'évaluation a pour objectif de donner régulièrement des retours aux technicien-ne-s et ainsi obtenir une acquisition de compétences progressives.
 
 #### Pondération
 
@@ -53,7 +45,7 @@ La théorie et la pratique auront une pondération identique.
 * 50% -> l'évaluation théorie produira une première note de module.
 * 50% -> l'évaluation pratique (sprints) produira une deuxième note de module.
 
-{% hint style="info" %}
+{% hint style="warning" %}
 Barème
 
 (nbPts obtenus / nbPts max) \* 5 + 1. Arrondie au dixième.

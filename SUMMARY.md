@@ -2,7 +2,7 @@
 
 * [Kickoff](README.md)
   * [PEC - Fiche descriptive de module](<kickoff/pec-fiche-descriptive-de-module (1).md>)
-  * [Intention 2024-2025](<kickoff/intention-2024-2025 (1).md>)
+  * [Intention 2025-2026](kickoff/intention-2025-2026.md)
 
 ## ARCHIVES
 
