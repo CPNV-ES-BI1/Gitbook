@@ -33,6 +33,8 @@ Un minimum de 3 sprints sont demandés afin d'obtenir les situations suivantes:
   * Objectif : Un premier flux "simple" est mis en oeuvre, impliquant toutes les couches de l'ELT. Un rendu graphique des données permet de valider le bon fonctionnement du flux.
 * <mark style="color:orange;">Sprint 2 - Deuxième version de l'ELT</mark>
   * Objectif : Le flux est enrichi et complexifié. Plus de données, plus de connecteurs et un meilleur traitement global des données.
+* <mark style="color:orange;">Sprint 3 - Déploiement des microservices</mark>
+  * Objectif : Le flux est déployé en tant que microservices.
 
 ### Evaluation
 
