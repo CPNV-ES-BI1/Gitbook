@@ -19,7 +19,7 @@ J'ai opté pour une représentation intégrant toutes les équipes. Cela vous pe
 
 
 
-<figure><img src="../../../.gitbook/assets/radarSprint01.png" alt=""><figcaption><p>Radar représentation la fin du sprint 1</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/radarSprint01.png" alt=""><figcaption><p>Radar représentation la fin du sprint 1</p></figcaption></figure>
 
 ## Review globale
 

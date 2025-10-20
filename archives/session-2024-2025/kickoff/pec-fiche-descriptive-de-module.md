@@ -17,8 +17,8 @@
   * Dialogue, débat en classe.
   * Evaluation formative.
 * Pratique
-  * DIfférents laboratoires pour aborder et prendre en main les technologies.
-  * Définition d'un thème global par la classe ou par équipe.
+  * DIfférents laboratoires pour prendre en main les différentes technologies.
+  * Définition d'un thème global par la classe.
   * Découpage du backlog pour différentes dev teams.
   * Approche empirique et itérative.
   * Immersion dans une approche industrielle.
@@ -34,9 +34,9 @@
 #### Modalité d’évaluation
 
 * Théorique
-  * 1-2 évaluations sommatives individuelles, à l'écrit.
+  * 2 évaluations sommatives individuelles, à l'écrit.
 * Pratique
-  * 3 évaluations sommatives en équipe, sous forme de défense (sprint review/retrospective).
+  * 3 évaluations sommatives en équipe, sous forme de défense.
 
 #### Contenu du module
 
