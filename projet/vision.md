@@ -8,7 +8,7 @@ L'idée est de partir des concepts de la BI vus durant les 4 premières semaines
 
 Voici le briefing dessiné au tableau lors du Kickoff:
 
-<figure><img src="../../../.gitbook/assets/image (21).png" alt=""><figcaption><p>Vision du projet - schéma</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (21).png" alt=""><figcaption><p>Vision du projet - schéma</p></figcaption></figure>
 
 ## Explications
 
