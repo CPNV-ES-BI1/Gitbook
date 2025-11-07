@@ -1,10 +1,10 @@
-# Object Storage - Interface, test class and SDK
+# Extract
 
 ## Intentions pédagogiques
 
 La première étape cruciale de tout système de BI est d'avoir des sources données pour alimenter son DataWarehouse.
 
-Dans ce laboratoire nous allons débuter la réalisation de la partie logique étant responsable de la collect de données pour notre ELT.
+Dans ce laboratoire nous allons débuter la réalisation de la partie logique étant responsable de la collect de données pour notre ELT, la phase d'extraction (EXTRACT).
 
 ## Objectifs opérationnels
 
@@ -14,4 +14,4 @@ Nous réaliserons 3 étapes pour ce laboratoire introductif à la BI.
 
 [Etape 2 - Tester son architecture](tester-son-architecture.md)
 
-[Etape 3 - Les dépendances](gestion-des-dependances.md)
+[Etape 3 - Les dépendences](gestion-des-dependances.md)
