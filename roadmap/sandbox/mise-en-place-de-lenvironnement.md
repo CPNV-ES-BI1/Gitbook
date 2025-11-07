@@ -17,4 +17,6 @@ Vous êtes libres dans le choix du langage et du Framework que vous désirez uti
   * [ ] des objets de tests (mocks, stubs)
   * [ ] méthode permettant de factoriser les tests (setup all, tear down, before each/all)
 * [ ] Gestion "facilité" injection de dépendences
+* [ ] Les bonnes pratiques du langage doivent être appliquées (convention de nommage entre autre)
+* [ ] Le standard du langage doit être suivi (PSR, PEP8, ECMA)
 

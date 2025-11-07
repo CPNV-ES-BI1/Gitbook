@@ -34,7 +34,7 @@ Cette vidéo ne sera pas utilisée comme source à l'examen, elle sert uniquemen
 
 [Ce quiz formatif](https://forms.office.com/e/KJLEQ4W6fQ) vous permet de voir des exemples de questions pour l'évaluation.
 
-{% hint style="info" %}
+{% hint style="warning" %}
 L'épreuve sommative comportera principalement des questions ouvertes.
 {% endhint %}
 
