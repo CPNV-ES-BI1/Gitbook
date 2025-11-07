@@ -32,7 +32,7 @@ La couche logique métier est celle où réside la fonctionnalité principale de
 Pour notre projet, nous réaliserons toutes les couches, y compris la couche métier.
 {% endhint %}
 
-## Couche de données (Data layer)
+## Couche de données (Persistence/Data layer)
 
 La couche de stockage des données, également appelée « base de données API », est la couche où sont stockées toutes les données utilisées par l'API. Cette couche est chargée de gérer le stockage, la récupération et la modification des données. Elle peut utiliser diverses technologies de base de données telles que SQL, NoSQL ou des bases de données orientées objet.
 
