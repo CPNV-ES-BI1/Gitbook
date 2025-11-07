@@ -35,10 +35,8 @@ Chaque technicien doit, au terme de cette phase doit pouvoir :
 
 ## Quiz formatif
 
-Ce quiz formatif vous permet de voir des exemples de questions pour l'évaluation.
+[Ce quiz formatif](https://forms.office.com/e/uQFU6DsjdK) vous permet de voir des exemples de questions pour l'évaluation.
 
 {% hint style="info" %}
 L'épreuve sommative comportera principalement des questions ouvertes.
 {% endhint %}
-
-{% embed url="https://forms.office.com/e/4SXtHQRqNi" %}
