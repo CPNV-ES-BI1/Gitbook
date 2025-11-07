@@ -40,8 +40,6 @@ L'épreuve sommative comportera principalement des questions ouvertes.
 
 {% embed url="https://forms.office.com/e/KJLEQ4W6fQ" %}
 
-***
-
 ## En savoir plus
 
 {% embed url="https://www.hhs.gov/hipaa/index.html" %}
