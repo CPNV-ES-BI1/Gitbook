@@ -11,10 +11,9 @@
     * [Technique](roadmap/theorie-et-concepts/technique/README.md)
       * [Les méthodes HTTP](roadmap/theorie-et-concepts/technique/les-methodes-http.md)
       * [Les codes HTTP](roadmap/theorie-et-concepts/technique/les-codes-http.md)
-      * [Les différentes couches d'une API](roadmap/theorie-et-concepts/technique/les-differentes-couches-dune-api.md)
+      * [API et Couches Logiques](roadmap/theorie-et-concepts/technique/api-et-couches-logiques.md)
   * [Laboratoires](roadmap/laboratoires.md)
     * [Mise en place de l'environnement](roadmap/sandbox/mise-en-place-de-lenvironnement.md)
-    * [API et Couches Logiques](roadmap/laboratoires/api-et-couches-logiques.md)
   * [Sandbox](roadmap/sandbox/README.md)
     * [Extract](roadmap/sandbox/extract.md)
 

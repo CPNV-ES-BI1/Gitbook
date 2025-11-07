@@ -4,10 +4,12 @@
 
 Pour mieux aborder la programmation par couche, voici un document présentant les différentes couches logiques que nous allons réaliser lors de notre projet d'API.
 
-<figure><img src="../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
-Pour un projet d'API (sans interface graphique), la vue correspondant au dialogue possible avec l'API, notamment les retours en JSON qui sont produits.
+Pour un projet d'API (sans interface graphique), la vue correspondant au dialogue possible avec l'API, notamment les retours en JSON qui sont produits.\
+\
+Cette dernière pourra selon le besoin dialoguer avec d'autres API, y comrpis des API externes.
 {% endhint %}
 
 ## Couche de présentation (Présentation layer)
