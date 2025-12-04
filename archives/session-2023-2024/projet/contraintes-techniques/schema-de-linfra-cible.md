@@ -1,6 +1,6 @@
 # Schéma de l'infra cible
 
-<figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption><p>Schéma de l'infrastructure cible</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Schéma de l'infrastructure cible</p></figcaption></figure>
 
 
 

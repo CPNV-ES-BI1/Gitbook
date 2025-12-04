@@ -18,8 +18,7 @@ Après une étude approfondi de ce contenu, le technicien sera capable de:
 
 Source: [MartinFowler - Mock aren't Stubs](https://martinfowler.com/articles/mocksArentStubs.html)
 
-Cet article explore les différents aspects du testing, dont voici les questions essentielles auxquelles vous devez pouvoir répondre après son étude:\
-
+Cet article explore les différents aspects du testing, dont voici les questions essentielles auxquelles vous devez pouvoir répondre après son étude:<br>
 
 ## Expliquer la différence d'approche entre de l'"injection dependencie" classique et celle appliqué à l'inversion of control"
 

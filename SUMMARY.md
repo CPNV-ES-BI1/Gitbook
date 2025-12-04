@@ -12,6 +12,7 @@
       * [Les méthodes HTTP](roadmap/theorie-et-concepts/technique/les-methodes-http.md)
       * [Les codes HTTP](roadmap/theorie-et-concepts/technique/les-codes-http.md)
       * [API et Couches Logiques](roadmap/theorie-et-concepts/technique/api-et-couches-logiques.md)
+      * [Microservices - Architecture](roadmap/theorie-et-concepts/technique/microservices-architecture.md)
   * [Laboratoires](roadmap/laboratoires.md)
     * [Mise en place de l'environnement](roadmap/sandbox/mise-en-place-de-lenvironnement.md)
       * [Structure du projet](roadmap/laboratoires/mise-en-place-de-lenvironnement/structure-du-projet.md)

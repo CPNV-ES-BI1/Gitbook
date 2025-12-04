@@ -6,8 +6,7 @@
 
 Cette épreuve permettra de valider la bonne compréhension des principes théoriques du module ainsi que des aspects pratiques vus dans les laboratoires.&#x20;
 
-Le contenu à maîtriser est celui étudié depuis le début du module, jusqu'au jour de l'épreuve.\
-
+Le contenu à maîtriser est celui étudié depuis le début du module, jusqu'au jour de l'épreuve.<br>
 
 _Modalités_
 
@@ -15,8 +14,7 @@ _Modalités_
 * 45 minutes à disposition,
 * les réponses doivent être saisies directement dans le formulaire,
 * aucune aide externe, ni documentation n'est permise,
-* seul votre navigateur est affiché sur votre écran.\
-
+* seul votre navigateur est affiché sur votre écran.<br>
 
 {% hint style="warning" %}
 Ne quittez votre navigateur qu'après avoir envoyé avec succès votre formulaire.
@@ -30,8 +28,7 @@ _Déroulement_
   une fois le formulaire complet, vous le transmettez à l'enseignant.
 
 _Pondération et calcul de la note_\
-Cette épreuve vaut pour 50% de la note finale du module. Les arrondis ainsi que le calcul de la note finale seront imposés par LAGAPEP.\
-
+Cette épreuve vaut pour 50% de la note finale du module. Les arrondis ainsi que le calcul de la note finale seront imposés par LAGAPEP.<br>
 
 {% hint style="warning" %}
 Le barême habituel suivant sera utilisé : (nb. obtenus / nb. max) \* 5 + 1
@@ -47,8 +44,7 @@ Il s'agira de présenter **3 livrables (fin de sprint**) durant lequel aussi bie
 
 La capacité de la dev team à progresser d'un sprint à l'autre est l'élément qui sera valorisé en priorité.
 
-Faites attention de bien respecter les pratiques vues en laboratoire et de faire le lien avec les principes de la BI.\
-
+Faites attention de bien respecter les pratiques vues en laboratoire et de faire le lien avec les principes de la BI.<br>
 
 _Modalités_
 

@@ -1,6 +1,6 @@
 # Concepts
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Schématisation d'un flux BI passant par ELT/ETL</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Schématisation d'un flux BI passant par ELT/ETL</p></figcaption></figure>
 
 ## Introduction
 

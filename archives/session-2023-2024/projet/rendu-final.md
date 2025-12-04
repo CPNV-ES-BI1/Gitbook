@@ -17,8 +17,7 @@ Ce document présent aussi bien les modalités de rendus que le contenu à rendr
 
 ## Dépôt
 
-L'objectif de ce set de critères et de valider que votre projet est facilement transmissible. Il ne vous est pas demandé de faire un tuto ni sur la "BI", ni sur le fonctionnement des technologies utilisées (SDK, API, DataStorage, LabelDetector).\
-
+L'objectif de ce set de critères et de valider que votre projet est facilement transmissible. Il ne vous est pas demandé de faire un tuto ni sur la "BI", ni sur le fonctionnement des technologies utilisées (SDK, API, DataStorage, LabelDetector).<br>
 
 De manière pragmatique, l'idée et de pouvoir intégrer votre travail de développement.
 
@@ -28,8 +27,8 @@ De manière pragmatique, l'idée et de pouvoir intégrer votre travail de dével
 
 | Critère                | Valeur                                                                           | Commentaires                                                                                                                                                                                                                                                                               |
 | ---------------------- | -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| DataObject             | [Tous les tests doivent passer](broken-reference)                                |                                                                                                                                                                                                                                                                                            |
-| LabelDetector          | [Tous les tests doivent passer](broken-reference)                                |                                                                                                                                                                                                                                                                                            |
+| DataObject             | [Tous les tests doivent passer](/broken/pages/nuEwlIBXOniiUcirJgWw)              |                                                                                                                                                                                                                                                                                            |
+| LabelDetector          | [Tous les tests doivent passer](/broken/pages/JyBSLNc5zz2FQEvB4U9b)              |                                                                                                                                                                                                                                                                                            |
 | Scenario d'intégration | [La séquence présentée ici doit pouvoir être réalisée.](contraintes-techniques/) | <p>Il s'agit d'avoir sur le bucket, l'image analysé, ainsi que le contenu de la réponse en format sql.<br><br>Il est important que le script de création de votre modèle soit livré dans le dépôt pour que je puisse valider le processus jusqu'à l'injection dans le "datawarehouse".</p> |
 
 ## Présentation

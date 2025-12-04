@@ -14,8 +14,7 @@ Cette dernière pourra selon le besoin dialoguer avec d'autres API, y comrpis de
 
 ## Couche de présentation (Présentation layer)
 
-La couche de présentation, également appelée « point de terminaison API », est la couche avec laquelle les développeurs interagissent le plus fréquemment. Cette couche fournit une interface conviviale permettant aux développeurs d'accéder aux fonctionnalités et aux données du service sous-jacent. Elle est chargée de traiter les requêtes entrantes et de renvoyer des réponses dans un format facilement compréhensible par les développeurs.\
-
+La couche de présentation, également appelée « point de terminaison API », est la couche avec laquelle les développeurs interagissent le plus fréquemment. Cette couche fournit une interface conviviale permettant aux développeurs d'accéder aux fonctionnalités et aux données du service sous-jacent. Elle est chargée de traiter les requêtes entrantes et de renvoyer des réponses dans un format facilement compréhensible par les développeurs.<br>
 
 La couche de présentation peut prendre différentes formes, en fonction des exigences de l'API. Il peut s'agir d'une API REST qui utilise des requêtes HTTP pour échanger des données ou d'une API SOAP qui utilise des messages XML pour communiquer. Quelle que soit l'implémentation spécifique, la couche de présentation est la partie publique de l'API et constitue le premier point de contact pour les développeurs.
 
@@ -25,8 +24,7 @@ Pour notre projet, nous opterons pour une approche Restfull (API qui suit les pr
 
 ## Couche métier (Business layer)
 
-La couche logique métier, également appelée « middleware API », est la couche qui contient la logique centrale de l'API. Elle est chargée de traiter les requêtes reçues de la couche présentation et de générer des réponses en fonction des actions demandées.\
-
+La couche logique métier, également appelée « middleware API », est la couche qui contient la logique centrale de l'API. Elle est chargée de traiter les requêtes reçues de la couche présentation et de générer des réponses en fonction des actions demandées.<br>
 
 La couche logique métier est celle où réside la fonctionnalité principale de l'API. Elle peut effectuer la validation des données, l'authentification et l'autorisation, les requêtes de base de données ou d'autres opérations complexes. Cette couche est généralement développée par le fournisseur de services et n'est pas directement accessible aux développeurs.
 

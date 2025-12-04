@@ -2,7 +2,7 @@
 
 Voici le dessin réalisé lors du Kickoff du module pour vous initier à la BI.
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Source : <a href="https://www.transvoirie.ch/articles/101/le-1er-camion-de-collecte-des-dechets-100-electrique">https://www.transvoirie.ch/articles/101/le-1er-camion-de-collecte-des-dechets-100-electrique</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Source : <a href="https://www.transvoirie.ch/articles/101/le-1er-camion-de-collecte-des-dechets-100-electrique">https://www.transvoirie.ch/articles/101/le-1er-camion-de-collecte-des-dechets-100-electrique</a></p></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/20221116_084724.jpg" alt=""><figcaption><p>Contexte de présentation de la BI</p></figcaption></figure>
 
