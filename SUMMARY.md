@@ -16,7 +16,8 @@
   * [Laboratoires](roadmap/laboratoires.md)
     * [Mise en place de l'environnement](roadmap/sandbox/mise-en-place-de-lenvironnement.md)
       * [Structure du projet](roadmap/laboratoires/mise-en-place-de-lenvironnement/structure-du-projet.md)
-  * [Evaluations](roadmap/evaluations.md)
+  * [Evaluations](roadmap/evaluations/README.md)
+    * [Livrable](roadmap/evaluations/livrable.md)
   * [Sandbox](roadmap/sandbox/README.md)
     * [Extract](roadmap/sandbox/extract.md)
 
