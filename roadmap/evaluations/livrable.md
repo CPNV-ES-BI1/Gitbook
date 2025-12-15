@@ -42,7 +42,7 @@ Note2 : Optez une approche permettant à votre composant de dialoguer avec plusi
 
 #### Contraintes techniques
 
-Voici les composants minimal à développer, ainsi que les contraintes à respecter:
+Voici les composants minimaux à développer, ainsi que les contraintes à respecter:
 
 ***
 
