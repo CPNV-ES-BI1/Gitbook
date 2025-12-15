@@ -61,7 +61,9 @@ Voici les composants minimal à développer, ainsi que les contraintes à respec
 
 **Service "BucketAdapter"**
 
-//TODO NGY - livrer une version finale du diagramme de classes
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+{% file src="../../.gitbook/assets/class-diagram-v4-bucketAdapter.puml" %}
 
 L'architecture minimale suivante doit être respectée:
 

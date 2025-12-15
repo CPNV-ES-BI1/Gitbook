@@ -1,0 +1,50 @@
+@startuml
+title DriveAdapter v3
+
+class DriveService {
+    + DriveService()
+    + upload(...)
+    + download(...)
+    + delete(...)
+    + list(...)
+    + doesExist(...):
+    + share(...):
+}
+
+class DriveAdapterFactory {
+    + getAdapter(): IDriveAdapter
+}
+
+interface IDriveAdapter {
+    + upload(local, remote):void
+    + download(remote, local):void
+    + delete(remote, recursive=false):void
+    + list(remote, recursive=false): string[]
+    + doesExist(remote):boolean
+}
+
+class OneDriveAdapterImpl
+class GoogleDriveAdapterImpl
+class DropBoxDriveAdapterImpl
+
+'-- SDK
+package DropBoxSDK{
+    class DropBoxClient
+}
+package OneDriveSDK{}
+package GoogleDriveSDK{}
+
+DriveService --> DriveAdapterFactory
+DriveAdapterFactory --> IDriveAdapter
+
+IDriveAdapter <|.. GoogleDriveAdapterImpl
+IDriveAdapter <|.. OneDriveAdapterImpl
+IDriveAdapter <|.. DropBoxDriveAdapterImpl
+
+DropBoxDriveAdapterImpl *-> DropBoxClient
+
+OneDriveAdapterImpl ..> OneDriveSDK
+GoogleDriveAdapterImpl ..> GoogleDriveSDK
+DropBoxDriveAdapterImpl ..> DropBoxSDK
+
+@enduml

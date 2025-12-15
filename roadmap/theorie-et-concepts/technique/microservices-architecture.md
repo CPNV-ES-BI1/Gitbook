@@ -20,7 +20,7 @@ Mais <mark style="color:orange;">ce gain de souplesse vient avec un coût en com
 
 Source : [microservices.io - introduction](https://microservices.io/patterns/microservices.html)
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 <p align="center">Source : <a href="https://aws.amazon.com/microservices/">AWS - Microservices</a></p>
 
@@ -42,7 +42,7 @@ Si chaque client doit appeler directement chaque microservice, cela pose plusieu
 
 
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
