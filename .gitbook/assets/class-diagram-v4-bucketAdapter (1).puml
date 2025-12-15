@@ -1,0 +1,59 @@
+@startuml
+title BucketAdapter v4
+
+class BucketService {
+    + upload(...): ...
+    + download(...): ...
+    + delete(...): ...
+    + list(...): ...
+    + doesExist(...): ...
+    + share(...): ...
+}
+
+class BucketAdapterFactory {
+    + getBucketAdapter(): IBucketAdapter
+}
+
+interface IBucketAdapter {
+    + upload(string:local, string:remote):void
+    + download(string:remote, string:local):void
+    + delete(string:remote, bool:recursive=false):void
+    + list(string:remote, recursive=false): string[]
+    + doesExist(string:remote):boolean
+    + share(string:remote, int:expirationTime)
+}
+
+class AZUREBucketAdapterImpl
+class GCPBucketAdapterImpl
+class AWSBucketAdapterImpl
+
+'-- SDK
+package AWSSDK{
+    class AWSClient
+    class IAWSClient
+}
+package GCPSDK{}
+package AZURESDK{}
+
+BucketService --> BucketAdapterFactory
+BucketAdapterFactory --> IBucketAdapter
+
+IBucketAdapter <|.. AWSBucketAdapterImpl
+IBucketAdapter <|.. GCPBucketAdapterImpl
+IBucketAdapter <|.. AZUREBucketAdapterImpl
+
+AWSBucketAdapterImpl *-> AWSClient
+
+AWSBucketAdapterImpl ..> AWSSDK
+GCPBucketAdapterImpl ..> GCPSDK
+AZUREBucketAdapterImpl ..> AZURESDK
+
+'-- Test
+
+class TestAWSBucketAdapterImpl{
+    -mockAWSClient:IAWSClient
+}
+
+TestAWSBucketAdapterImpl --> AWSBucketAdapterImpl
+TestAWSBucketAdapterImpl <-- IAWSClient:Create
+@enduml
