@@ -18,7 +18,8 @@
       * [Structure du projet](roadmap/laboratoires/mise-en-place-de-lenvironnement/structure-du-projet.md)
   * [Evaluations](roadmap/evaluations/README.md)
     * [Livrable](roadmap/evaluations/livrable/README.md)
-      * [Sequences](roadmap/evaluations/livrable/sequences.md)
+      * [Sequence - Get Objects](roadmap/evaluations/livrable/sequence-get-objects.md)
+      * [Sequence - Get Objects - Object Not Found](roadmap/evaluations/livrable/sequence-get-objects-object-not-found.md)
   * [Sandbox](roadmap/sandbox/README.md)
     * [Extract](roadmap/sandbox/extract.md)
 
