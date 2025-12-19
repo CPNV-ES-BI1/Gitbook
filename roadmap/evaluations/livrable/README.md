@@ -61,9 +61,9 @@ Voici les composants minimaux à développer, ainsi que les contraintes à respe
 
 **Service "BucketAdapter"**
 
-<figure><img src="../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
+{% file src="../../../.gitbook/assets/class-diagram-v5-bucketAdapter.puml" %}
 
-{% file src="../../.gitbook/assets/class-diagram-v4-bucketAdapter (1).puml" %}
+<figure><img src="../../../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
 
 L'architecture minimale suivante doit être respectée:
 
