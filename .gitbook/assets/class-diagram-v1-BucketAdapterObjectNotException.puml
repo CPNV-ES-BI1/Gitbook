@@ -1,0 +1,37 @@
+@startuml
+title BucketAdapter v1 (Exception strategy)
+
+class AZUREBucketAdapterImpl
+class GCPBucketAdapterImpl
+class AWSBucketAdapterImpl {
+}
+
+' ---- SDK ----
+package AWSSDK {
+    class AWSClient
+    class AWSException
+    class AWSBucketNotFoundException
+}
+
+package BucketAdapterExceptions{
+    class BucketNotFoundException
+}
+
+' ---- Relationships ----
+BucketService --> BucketAdapterFactory
+BucketAdapterFactory --> IBucketAdapter
+
+IBucketAdapter <|.. AWSBucketAdapterImpl
+IBucketAdapter <|.. GCPBucketAdapterImpl
+IBucketAdapter <|.. AZUREBucketAdapterImpl
+
+' Dependency Injection instead of instantiation
+AWSBucketAdapterImpl ..> AWSSDK
+
+' Exception
+AWSClient ..> AWSBucketNotFoundException : throws
+AWSException <|- AWSBucketNotFoundException
+AWSBucketAdapterImpl ..> BucketNotFoundException : throws
+GCPBucketAdapterImpl ..> BucketNotFoundException : throws
+AZUREBucketAdapterImpl ..> BucketNotFoundException : throws
+@enduml

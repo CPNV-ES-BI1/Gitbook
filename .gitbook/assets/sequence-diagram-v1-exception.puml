@@ -1,0 +1,44 @@
+@startuml
+title GET /api/v1/objects — Object Not Found Error Path
+
+actor ApiUser
+participant Router
+participant Controller
+participant BucketService
+participant "AWSBucketAdapterImpl" as AWSAdapter
+participant "AWSClient\n(AWS SDK)" as AWSClient
+
+== Request ==
+ApiUser -> Router: 1. GET /api/v1/objects
+Router -> Controller: route(request)
+
+Controller -> BucketService: list()
+BucketService -> AWSAdapter: list()
+
+== Adapter / SDK ==
+AWSAdapter -> AWSClient: 1. listObjects(bucket)
+
+AWSClient --> AWSAdapter: 2. AWSObjectNotFoundException
+
+== Exception Translation ==
+activate AWSAdapter
+note right of AWSAdapter
+catch AWSBucketNotFoundException
+throw BucketAdapterObjectNotFoundException
+end note
+AWSAdapter --> BucketService: 3. BucketAdapterObjectNotFoundException
+deactivate AWSAdapter
+
+== Propagation ==
+BucketService --> Controller: BucketAdapterObjectNotFoundException
+
+== HTTP Mapping ==
+activate Controller
+note right of Controller
+Map domain exception
+to HTTP status code
+end note
+Controller --> ApiUser: HTTP 404 Not Found
+deactivate Controller
+
+@enduml
