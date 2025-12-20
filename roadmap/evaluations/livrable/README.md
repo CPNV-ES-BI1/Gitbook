@@ -31,14 +31,17 @@ Les fonctionnalités suivantes doivent être implémentées
 
 * Create an object
 * Update an object
+* <mark style="color:orange;">Download an object</mark>
 * Delete an objet
 * Share an object (temporaly url)
 * List objects
-* DoesExist
+* DoesExist <mark style="color:orange;">(private method)</mark>
 
 Note1 : La différence entre un _bucket_ et un _object_ ne doit pas être à la charge de l'utilisateur.
 
-Note2 : Optez une approche permettant à votre composant de dialoguer avec plusieurs _buckets_.
+<mark style="color:orange;">Note2 : Optez une approche permettant à votre micro-service de dialoguer avec plusieurs</mark> <mark style="color:orange;"></mark>_<mark style="color:orange;">buckets. Imaginez plusieurs appels successifs pointant vers des buckets différents, du même</mark> <mark style="color:orange;"></mark><mark style="color:orange;">**provider**</mark><mark style="color:orange;">)</mark>_<mark style="color:orange;">.</mark>
+
+<mark style="color:orange;">Note3 : Votre API doit pouvoir dialoguer avec plusieurs</mark> <mark style="color:orange;"></mark>_<mark style="color:orange;">providers</mark>_<mark style="color:orange;">, mais pas simultanément. C'est lors du déploiement de votre micro-services que l'orchestrateur (le micro-service qui coordonnera les différents micro-services) définira le</mark> <mark style="color:orange;"></mark>_<mark style="color:orange;">provider</mark>_ <mark style="color:orange;"></mark><mark style="color:orange;">adéquat.</mark>&#x20;
 
 #### Contraintes techniques
 
@@ -65,6 +68,17 @@ Voici les composants minimaux à développer, ainsi que les contraintes à respe
 
 <figure><img src="../../../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
 
+{% hint style="info" %}
+V6 - Contenu de la mise à jour\
+\
+L'interface a été revisitée afin de favoriser une approche "api" et non "librairie".
+
+* La méthode upload reçoit le contenu binaire d'un fichier et non une source de type "string".
+* La méthode download ne dispose plus que d'un argument "local", mais retourne le contenu binaire d'un fichier.
+* La méthode list reçoit un argument optionnel offrant la possibilité d'obtenir soit tout le détail contenu dans le bucket, soit juste le niveau qui a été demandé. Ceci peut varié en fonction de votre SDK.
+* La méthode share retourne un url de type string.
+{% endhint %}
+
 L'architecture minimale suivante doit être respectée:
 
 * Interface
@@ -76,8 +90,15 @@ L'architecture minimale suivante doit être respectée:
 * Service
   * Ne contient aucune traces d'un _provider_ spécifique
   * S'appui sur une _factory_ pour obtenir le bon _adapter_.
-* Design Pattern
-  * Une _Factory_ livre le bon adapter au service.
+* Design Pattern "Factory"
+  * Livre le bon adapter au service.
+  * <mark style="color:orange;">Maintient la ou les instances "BucketAdapter" afin d'éviter de créer autant d'instance que d'appels reçu via l'api.</mark>
+
+{% hint style="warning" %}
+"Note that the factory method doesn’t have to **create** new instances all the time. It can also return existing objects from a cache, an object pool, or another source."\
+\
+Refactoring.guru
+{% endhint %}
 
 ***
 
