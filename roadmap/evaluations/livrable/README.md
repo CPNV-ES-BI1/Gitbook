@@ -68,7 +68,7 @@ Voici les composants minimaux à développer, ainsi que les contraintes à respe
 
 <figure><img src="../../../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
 
-{% hint style="info" %}
+{% hint style="warning" %}
 V6 - Contenu de la mise à jour\
 \
 L'interface a été revisitée afin de favoriser une approche "api" et non "librairie".
