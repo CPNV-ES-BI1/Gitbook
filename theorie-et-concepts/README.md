@@ -1,2 +1,2 @@
-# Théorie et Concepts
+# Théorie et concepts
 
