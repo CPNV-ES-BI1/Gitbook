@@ -18,9 +18,13 @@ Cette Erreur "métier" (ObjectNotFoundException) remontera jusqu'au _controller_
 
 ## Le diagramme de classe (simplifié)
 
-<figure><img src="../../../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
+{% file src="../../.gitbook/assets/class-diagram-v1-BucketAdapterObjectNotException.puml" %}
+
+<figure><img src="../../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
 
 ## La séquence
 
-<figure><img src="../../../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
+{% file src="../../.gitbook/assets/sequence-diagram-v1-exception.puml" %}
+
+<figure><img src="../../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
 
