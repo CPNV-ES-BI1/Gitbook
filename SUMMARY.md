@@ -95,3 +95,4 @@
         * [MocksArentStubs](sandbox/semaines-4-6/theorie-et-concepts/bdd-gerer-les-dependences/mocksarentstubs.md)
         * [DI and IoC](sandbox/semaines-4-6/theorie-et-concepts/bdd-gerer-les-dependences/di-and-ioc.md)
         * [IoC - Language-specific examples](sandbox/semaines-4-6/theorie-et-concepts/bdd-gerer-les-dependences/ioc-language-specific-examples.md)
+  * [Bibliographie](sandbox/bibliographie.md)
