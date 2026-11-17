@@ -33,4 +33,3 @@
     └── swagger.json
 ```
 
-## Diagramme de classes
