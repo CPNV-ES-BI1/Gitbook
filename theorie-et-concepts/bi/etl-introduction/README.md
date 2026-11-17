@@ -4,7 +4,7 @@
 
 ## Définition de l'ETL
 
-L'ETL est un processus d'intégration de données qui permet de collecter des informations provenant de plusieurs sources, de le transformer et de les charger dans une destination commune.
+L'ETL est un processus d'intégration de données qui permet de collecter des informations issues de plusieurs sources, de les transformer et de les charger dans une destination commune.
 
 L'objectif est de rendre les données cohérentes, fiables et exploitables pour:
 
@@ -15,11 +15,11 @@ L'objectif est de rendre les données cohérentes, fiables et exploitables pour:
 
 L'ETL repose sur trois étapes fondamentales:
 
-| Etape     | Description                                                         |
-| --------- | ------------------------------------------------------------------- |
-| Extract   | Extraction des données depuis différentes sources.                  |
-| Transform | Nettoyage, validation, enrichissement et normalisation des données. |
-| Load      | Chargement des données transformées dans un système cible.          |
+| Etape                     | Description                                                         |
+| ------------------------- | ------------------------------------------------------------------- |
+| [Extract](extract.md)     | Extraction des données depuis différentes sources.                  |
+| [Transform](transform.md) | Nettoyage, validation, enrichissement et normalisation des données. |
+| [Load](load.md)           | Chargement des données transformées dans un système cible.          |
 
 L'ETL est particulièrement intéressant pour les organisations qui doivent intégrer des systèmes existants (_Legacy Systems_), garantir la qualité des données et protéger les données sensibles.
 
